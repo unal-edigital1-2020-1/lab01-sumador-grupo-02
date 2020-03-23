@@ -7,6 +7,6 @@ En esta plantilla debe adicionar la documentación del laboratorio
 * Edwar Andres Jimenez Lopez
 * Andrés Felipe Beltrán
 
-´´´
+```
 hgjhgjhgjnbmnbkjkbj
-´´´
+```
