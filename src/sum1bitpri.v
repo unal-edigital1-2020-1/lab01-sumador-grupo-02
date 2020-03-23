@@ -18,7 +18,7 @@
 // Additional Comments:
 // 
 //////////////////////////////////////////////////////////////////////////////////
-
+//Esta es la descripción de hardware para el sumador de 1 bit, en esta no se hace la descripción per se de las compuertas, sino que se usa un registro.
 
 module sum1bit(
     input A,
@@ -27,7 +27,7 @@ module sum1bit(
     output Cout,
     output S
     );
-    
+//Aqui se define un registro con un tamaño de 2 y se le asigna en la posición 0 la salida de la suma y en la posición 2 el valor del carry resultante.    
     reg [1:0] yo;
     assign S=yo[0];
     assign Cout=yo[1];
