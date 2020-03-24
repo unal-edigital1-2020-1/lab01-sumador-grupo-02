@@ -38,7 +38,7 @@ Con el siguiente bloque funcional:
 Se observa que la lógica combinacional del ejercicio propuesto esta dada por:
 
 ![Sumador 1bit](https://github.com/Fabeltranm/SPARTAN6-ATMEGA-MAX5864/blob/master/lab/lab01-sumador1b/doc/sum1bPuertas.jpg)
-Siguiente imagen
+
 
 Se sugirió para el siguiente código para la descripción del hardware:
 
@@ -66,7 +66,7 @@ module sum1bcc_primitive (A, B, Ci,Cout,S);
 endmodule
 ```
 
-Se decribe aquí las entradas/salidas (```input/ouput```), las conexiones de las conpuertas (```wire```) y las compuertas lógicas (```and(), xor(), or()```), todo los elementos anteriores de acuerdo a la lógica combinacional
+Se decribe aquí las entradas/salidas (```input/ouput```), las conexiones de las compuertas (```wire```) y las compuertas lógicas (```and(), xor(), or()```), todo los elementos anteriores de acuerdo a la lógica combinacional
 que se propuso para el ejercicio.
 
 
