@@ -1,0 +1,17 @@
+// En este archivo se definen los puertos usados en propiamente en la FPGA de acuerdo al Datasheet de la Nexys 4
+
+
+set-property-dict{PACKAGE_PIN P4 IOSTANDARD LVCMOS33} [gets_ports{A(xi[0]}]
+set-property-dict{PACKAGE_PIN P3 IOSTANDARD LVCMOS33} [gets_ports{A(xi[1]}]
+set-property-dict{PACKAGE_PIN R3 IOSTANDARD LVCMOS33} [gets_ports{A(xi[2]}]
+set-property-dict{PACKAGE_PIN T1 IOSTANDARD LVCMOS33} [gets_ports{A(xi[3]}]
+
+set-property-dict{PACKAGE_PIN T3 IOSTANDARD LVCMOS33} [gets_ports{B(yi[0]}]
+set-property-dict{PACKAGE_PIN U2 IOSTANDARD LVCMOS33} [gets_ports{B(yi[1]}]
+set-property-dict{PACKAGE_PIN V2 IOSTANDARD LVCMOS33} [gets_ports{B(yi[2]}]
+set-property-dict{PACKAGE_PIN U4 IOSTANDARD LVCMOS33} [gets_ports{B(yi[3]}]
+
+set-property-dict{PACKAGE_PIN P2 IOSTANDARD LVCMOS33} [gets_ports{S(zi[0])}]
+set-property-dict{PACKAGE_PIN R2 IOSTANDARD LVCMOS33} [gets_ports{S(zi[1])}]
+set-property-dict{PACKAGE_PIN U1 IOSTANDARD LVCMOS33} [gets_ports{S(zi[2])}]
+set-property-dict{PACKAGE_PIN P5 IOSTANDARD LVCMOS33} [gets_ports{S(zi[3])}]
