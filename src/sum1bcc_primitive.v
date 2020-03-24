@@ -1,4 +1,4 @@
-module sum1bcc_primitive (A, B, Ci,Cout,S);
+module sum1bcc_primitive (A, B, Ci, Cout, S);
 
   input  A;
   input  B;
@@ -19,4 +19,3 @@ module sum1bcc_primitive (A, B, Ci,Cout,S);
 
   or (Cout,cout_t,a_ab);
 endmodule
-

@@ -1,25 +1,25 @@
 `timescale 1ns / 1ps
 //////////////////////////////////////////////////////////////////////////////////
-// Company: 
-// Engineer: 
-// 
-// Create Date:    20:26:57 08/19/2019 
-// Design Name: 
-// Module Name:    sum1bcc 
-// Project Name: 
-// Target Devices: 
-// Tool versions: 
-// Description: 
+// Company:
+// Engineer:
 //
-// Dependencies: 
+// Create Date:    20:26:57 03/23/2020
+// Design Name:
+// Module Name:    sum1bcc
+// Project Name:
+// Target Devices:
+// Tool versions:
+// Description:
 //
-// Revision: 
+// Dependencies:
+//
+// Revision:
 // Revision 0.01 - File Created
-// Additional Comments: 
+// Additional Comments:
 //
 //////////////////////////////////////////////////////////////////////////////////
 
-module sum1bcc (A, B, Ci,Cout,S);
+module sum1bcc (A, B, Ci, Cout, S);
 
   input  A;
   input  B;
@@ -32,7 +32,6 @@ module sum1bcc (A, B, Ci,Cout,S);
   assign Cout = st[1];
 
   assign st  = 	A+B+Ci;
- 
-  
-endmodule
 
+
+endmodule
