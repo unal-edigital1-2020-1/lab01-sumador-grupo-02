@@ -25,9 +25,10 @@ input[3:0]n1;
 input[3:0]n2;
 output Co;
 output[3:0]So;
-
+//este cable conecta el carry de salida del anterior sumador con el carri de entrada del sumador siguiente
 wire c1,c2,c3;
-
+  
+//Inicial mente el primer carry de entrada no tiene valor asignado ya que es el primero y  no se tiene en cuenta algun registro o numero anterior antes de sumar dos números de 4 bits
 sum1bitpri s0 (.A(n1[0]), .B(n2[0]), .Cin(0), .Cout(c1), .S(So[0]));
 sum1bitpri s1 (.A(n1[1]), .B(n2[1]), .Cin(c1), .Cout(c2), .S(So[1]));
 sum1bitpri s2 (.A(n1[2]), .B(n2[2]), .Cin(c2), .Cout(c3), .S(So[2]));
