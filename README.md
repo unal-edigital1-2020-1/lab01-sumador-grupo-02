@@ -1,22 +1,22 @@
 # lab01- sumador
 ## laboratorio 01 introducción a HDL
 
-documentación del laboratorio
+En esta plantilla debe adicionar la documentación del laboratorio
 
 * Julian y Andres Castro Pardo
 * Edwar Andres Jimenez Lopez
 * Andrés Felipe Beltrán
 
-## Introducción <h2>
+# Descripción   <h2>
+  Para el desarrollo de este laboratorio se hizo uso de los codigos de la carpeta src: sum1bcc.v sum4bcc.v y sum4b_TB, los cuales fueron comentados respectivamente con su funcionamiento.
+
+
+
+
+## Introducción
 
 Este documento muestra en primer lugar la implementación de un sumador de un bit para luego ser instanciado
 como módulo principal para construir un sumador de 4 bits.
-
-
-# Descripción   <h2>
-  Para el desarrollo de este laboratorio se hizo uso de los códigos de la carpeta src: sum1bcc.v sum4bcc.v y sum4b_TB, los cuales fueron comentados respectivamente con su funcionamiento.
-
-
 
 
 ## Desarrollo
@@ -79,8 +79,6 @@ que se propuso para el ejercicio.
 
 ### Desarrollo del del sumador de 4 bits
 
-Se muestra a  continuación los resultados de la implementación del sumador usando 4 módulos de sumador de 1 bit conectados:
-
 # Esquematico sumador de 4 bits <h2>
 
 ![Image of 4 bit adder schematic](https://github.com/unal-edigital1-2020-1/lab01-sumador-grupo-02/blob/master/Schematic_sum4b.PNG)
@@ -91,6 +89,10 @@ Esta es la simulación obtenida para el sumador de 4 bits con la implementación
 
 ![Image of 4 bit adder simulation](https://github.com/unal-edigital1-2020-1/lab01-sumador-grupo-02/blob/master/sim2.PNG)
 
+![Image of 4 bit adder simulation.](https://github.com/unal-edigital1-2020-1/lab01-sumador-grupo-02/blob/master/sim3.PNG)
+
+En esta ultima captura se ve a con mayor detalle la suma con los flancos de subida de cada una de las entradas de acuerdo a lo programado en el testbench.
 # Experiencias  <h2>
 
   Al momento de hacer la simulación se encontro un error en el testbench "ERROR: [VRFC 10-695] first argument level of system task dumpvars must be a positive integer" por lo que se tuvo que modicifar el archivo sum4b_TB.
+  
