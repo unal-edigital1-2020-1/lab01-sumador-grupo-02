@@ -3,7 +3,7 @@
 
 En esta plantilla debe adicionar la documentación del laboratorio
 
-* Julian y Andres Castro Pardo
+* Julian Andres Castro Pardo
 * Edwar Andres Jimenez Lopez
 * Andrés Felipe Beltrán
 
