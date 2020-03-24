@@ -73,27 +73,28 @@ endmodule
 Se decribe aquí las entradas/salidas (```input/ouput```), las conexiones de las compuertas (```wire```) y las compuertas lógicas (```and(), xor(), or()```), todo los elementos anteriores de acuerdo a la lógica combinacional
 que se propuso para el ejercicio.
 
-# Esquematico sumadador de 1 bit  <h2>
+## Esquematico sumadador de 1 bit  <h2>
 
 ![Image of 1 bit adder schematic](https://github.com/unal-edigital1-2020-1/lab01-sumador-grupo-02/blob/master/Schematic_sim1b.PNG)
 
 # Desarrollo del del sumador de 4 bits
 
-# Esquematico sumador de 4 bits <h2>
+## Esquematico sumador de 4 bits <h2>
 
 ![Image of 4 bit adder schematic](https://github.com/unal-edigital1-2020-1/lab01-sumador-grupo-02/blob/master/Schematic_sum4b.PNG)
 
-# Simulación   <h2>
+## Simulación   <h2>
 
-Esta es la simulación obtenida para el sumador de 4 bits con la implementación del modulo de  1 bit.
+Esta es la simulación obtenida para el sumador de 4 bits con la implementación del módulo de  1 bit.
 
 ![Image of 4 bit adder simulation](https://github.com/unal-edigital1-2020-1/lab01-sumador-grupo-02/blob/master/sim2.PNG)
 
 ![Image of 4 bit adder simulation.](https://github.com/unal-edigital1-2020-1/lab01-sumador-grupo-02/blob/master/sim3.PNG)
 
-En esta ultima captura se ve a con mayor detalle la suma con los flancos de subida de cada una de las entradas de acuerdo a lo programado en el testbench.
+En esta última captura se ve a con mayor detalle la suma con los flancos de subida de cada una de las entradas de acuerdo a lo programado en el testbench.
+
 # Experiencias  <h2>
 
-  Al momento de hacer la simulación se encontro un error en el testbench "ERROR: [VRFC 10-695] first argument level of system task dumpvars must be a positive integer" por lo que se tuvo que modicifar el archivo sum4b_TB.
+  Al momento de hacer la simulación se encontró un error en el testbench "ERROR: [VRFC 10-695] first argument level of system task dumpvars must be a positive integer" por lo que se tuvo que modicifar el archivo sum4b_TB.
 
   Finalmente, se comprobó que es más fácil realizar el sumador de 4 bits conectando sumadores de 1 bits, que realizar uno de 4 bits directamente.
