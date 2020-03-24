@@ -95,4 +95,5 @@ En esta ultima captura se ve a con mayor detalle la suma con los flancos de subi
 # Experiencias  <h2>
 
   Al momento de hacer la simulación se encontro un error en el testbench "ERROR: [VRFC 10-695] first argument level of system task dumpvars must be a positive integer" por lo que se tuvo que modicifar el archivo sum4b_TB.
-  
+
+  Finalmente, se comprobó que es más fácil realizar el sumador de 4 bits conectando sumadores de 1 bits, que realizar uno de 4 bits directamente.
