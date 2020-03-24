@@ -77,7 +77,7 @@ que se propuso para el ejercicio.
 
 ![Image of 1 bit adder schematic](https://github.com/unal-edigital1-2020-1/lab01-sumador-grupo-02/blob/master/Schematic_sim1b.PNG)
 
-### Desarrollo del del sumador de 4 bits
+# Desarrollo del del sumador de 4 bits
 
 # Esquematico sumador de 4 bits <h2>
 
