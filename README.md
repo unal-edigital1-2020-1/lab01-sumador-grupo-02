@@ -16,9 +16,7 @@ como módulo principal para construir un sumador de 4 bits.
 # Descripción   <h2>
   Para el desarrollo de este laboratorio se hizo uso de los códigos de la carpeta src: sum1bcc.v sum4bcc.v y sum4b_TB, los cuales fueron comentados respectivamente con su funcionamiento.
 
-# Esquematico sumadador de 1 bit  <h2>
 
-![Image of 1 bit adder schematic](https://github.com/unal-edigital1-2020-1/lab01-sumador-grupo-02/blob/master/Schematic_sim1b.PNG)
 
 
 ## Desarrollo
@@ -74,6 +72,8 @@ endmodule
 
 Se decribe aquí las entradas/salidas (```input/ouput```), las conexiones de las compuertas (```wire```) y las compuertas lógicas (```and(), xor(), or()```), todo los elementos anteriores de acuerdo a la lógica combinacional
 que se propuso para el ejercicio.
+
+# Esquematico sumadador de 1 bit  <h2>
 
 ![Image of 1 bit adder schematic](https://github.com/unal-edigital1-2020-1/lab01-sumador-grupo-02/blob/master/Schematic_sim1b.PNG)
 
