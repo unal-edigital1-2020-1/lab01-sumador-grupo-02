@@ -1,24 +1,24 @@
 # lab01- sumador
 ## laboratorio 01 introducción a HDL
 
-En esta plantilla debe adicionar la documentación del laboratorio
+documentación del laboratorio
 
 * Julian y Andres Castro Pardo
 * Edwar Andres Jimenez Lopez
 * Andrés Felipe Beltrán
 
+## Introducción <h2>
+
+Este documento muestra en primer lugar la implementación de un sumador de un bit para luego ser instanciado
+como módulo principal para construir un sumador de 4 bits.
+
+
 # Descripción   <h2>
-  Para el desarrollo de este laboratorio se hizo uso de los codigos de la carpeta src: sum1bcc.v sum4bcc.v y sum4b_TB, los cuales fueron comentados respectivamente con su funcionamiento.
+  Para el desarrollo de este laboratorio se hizo uso de los códigos de la carpeta src: sum1bcc.v sum4bcc.v y sum4b_TB, los cuales fueron comentados respectivamente con su funcionamiento.
 
 # Esquematico sumadador de 1 bit  <h2>
 
 ![Image of 1 bit adder schematic](https://github.com/unal-edigital1-2020-1/lab01-sumador-grupo-02/blob/master/Schematic_sim1b.PNG)
-
-
-## Introducción
-
-Este documento muestra en primer lugar la implementación de un sumador de un bit para luego ser instanciado
-como módulo principal para construir un sumador de 4 bits.
 
 
 ## Desarrollo
@@ -78,6 +78,8 @@ que se propuso para el ejercicio.
 ![Image of 1 bit adder schematic](https://github.com/unal-edigital1-2020-1/lab01-sumador-grupo-02/blob/master/Schematic_sim1b.PNG)
 
 ### Desarrollo del del sumador de 4 bits
+
+Se muestra a  continuación los resultados de la implementación del sumador usando 4 módulos de sumador de 1 bit conectados:
 
 # Esquematico sumador de 4 bits <h2>
 
